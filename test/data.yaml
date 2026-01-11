@@ -1,15 +1,8 @@
 # Dataset Path
-path: rddJapanIndiaFiltered
-train:
-- Japan/images/train
-- India/images/train
-val:
-- Japan/images/val
-- India/images/val
+path: C:\Projects Datasets\Road-Pathole-Detection\processedData\train
 
-# Class Names List
-names:
-  0: Longitudinal Crack
-  1: Transverse Crack
-  2: Alligator Crack
-  3: Potholes
+train: images/train
+val: images/val
+
+nc: 4
+names: ['Longitudinal Crack','Transverse Crack','Alligator Crack','Potholes']
