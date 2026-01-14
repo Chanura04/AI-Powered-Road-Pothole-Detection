@@ -1,5 +1,5 @@
 # Dataset Path
-path: C:\Projects Datasets\Road-Pathole-Detection\processedData\train
+path: C:\Projects Datasets\RoadDamageDetection\processedData\train
 
 train: images/train
 val: images/val
