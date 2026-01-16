@@ -1,8 +1,16 @@
-# Dataset Path
-path: C:\Projects Datasets\RoadDamageDetection\processedData\train
+# Root directory of the dataset
+path: C:\Projects Datasets\RoadDamageDetection\handled_imbalance_processed_data\YOLOv8\RoadDamageDetection
 
+# Image directories (RELATIVE to path)
 train: images/train
 val: images/val
 
+# Number of classes (ONLY what you actually train)
 nc: 4
-names: ['Longitudinal Crack','Transverse Crack','Alligator Crack','Potholes']
+
+# Class names (order MUST match class IDs)
+names:
+  0: Longitudinal Crack
+  1: Transverse Crack
+  2: Alligator Crack
+  3: Potholes
